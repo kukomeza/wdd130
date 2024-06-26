@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -21,6 +28,7 @@ img
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+
 }
 
 p{
@@ -28,12 +36,17 @@ p{
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 main img{
     width: 150px;
     height: auto;
+    float: right;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
 footer{
@@ -43,16 +56,31 @@ footer{
 }
 
 aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
+    top: 10px;
+    left: 350px;
 }
 
 aside img{
     width: 200px;
     height: auto;
 }
+
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 180px;
+}
+
+/* Class Sectors*/
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
